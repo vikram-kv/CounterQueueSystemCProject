@@ -5,7 +5,7 @@ To use the concepts of static and global variables for data sharing and data ret
 Instructions for compilation:-
 1.Compile using the GCC compiler with std=c11 and execute the .out file
 2.Input is from the service_request.txt file which contains the number of counters,buffer size of each counter and a 
-list of counters in that order.
+list of request sizes(in units of time instant). Requests are named implicitly in the order in which they occur.
 3.Output is printed in allocation.txt and qms-log.txt
 4.No output is printed on terminal in case of a successful termination of program
 5.allocation.txt contains the following information for every request that is processed
